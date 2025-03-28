@@ -1,0 +1,6 @@
+.vscode
+.get-pip.py
+new_venv
+venv
+srcs/frontend/static/host.js
+.env

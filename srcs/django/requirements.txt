@@ -1,0 +1,14 @@
+django~=4.2
+django-environ~=0.11
+djangorestframework
+psycopg2-binary~=2.9.10
+gunicorn~=20.1.0
+pillow
+djangorestframework_simplejwt
+django-otp
+pyotp
+channels
+daphne
+redis
+channels_redis
+django-redis
