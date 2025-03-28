@@ -1,5 +1,8 @@
 # ft_trascendance - 42 Project
 
+**Demo**: 
+[🎥 Watch the video here](https://drive.google.com/file/d/1EMci-oO75MXhvOJZ-ztPRHLHXEVeUvMY/view?usp=sharing)
+
 ## **Project Description**
 
 The **ft_trascendance** project is a web application developed using **Django** and **PostgreSQL** for the backend, **JavaScript** for the frontend, and **Docker** for deployment. The goal of this project is to create a **multiplayer 3D Pong game**. The project focuses on best practices in web development, including API creation for authentication and user management (using JWT), and real-time communication with **WebSockets**.
