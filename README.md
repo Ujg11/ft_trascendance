@@ -1,56 +1,23 @@
-# USE WEBSITE:
-To use the website go to https://localhost:8443
+# ft_trascendance - 42 Project
 
-___________________________________________________________________________________________________
-# PGADMIN CONNECTION:
-1) go to localhost:5050
-2) Insert the email provided in the .env
-3) Click in "add new server"
-4) In the "General" tab, enter a name for the server
-5) In the "Connection" tab, enter the following details (also found in .env):
-   Hostname/address: db (service name)
-   Port: 5432
-   Maintenance database: postgres
-   Username: postgres
-   Password: postgres
+## **Project Description**
 
-___________________________________________________________________________________________________
-# DJANGO 
+The **ft_trascendance** project is a web application developed using **Django** and **PostgreSQL**. The goal of this project is to manage user data through a RESTful API. The project focuses on using best practices in web development with Django, creating APIs for authentication and user management, and integrating a PostgreSQL database to securely store user information.
 
-1. Start by running "django-admin startproject <project_name>"
-2. To run the service, cd inside the project and run "python3 manage.py runserver"
-3. Create apps with "python3 manage.py startapp <app_name>"
+### **Skills Learned:**
+- **Django Framework**: Learned how to use Django to develop web applications, including creating views and handling HTTP requests.
+- **RESTful APIs**: Implemented endpoints for user creation, authentication (login), and user data management.
+- **PostgreSQL Database**: Configured and connected the PostgreSQL database to store user information.
+- **Docker**: Used Docker to containerize the application and ensure it is easy to deploy in any environment.
 
-Each App has its own views and urls.
-Views.py processes the resquests from the web, and it is mapped in the urls.py.
-Later we have to configure the globals urls.py from the project
+## **Main Features**
 
-project/app/views.py:
-    -   Take http requests and return a http response.
+- **User Management**: Create, edit, and fetch user information via an API.
+- **Authentication**: Users can sign up, log in, and obtain an authentication token for protected endpoints.
+- **Web Interface**: Interact with the application through a browser using Django.
 
-project/app/urls.py
-    -   Executes de view. It can allocate multiple urls for different
-        views, so it can redirect to a certain urls depending on the view.
+## **Usage Instructions**
 
-___________________________________________________________________________________________________
-# DJANGO/API/USER
-
-This appication is meant to manage the user data.
-Creating a user, getting the authentication token and changing some fields from the user
-will be managed by this application.
-
-The url for those api is https://localhost/api/user.
-You can access the correspondant API by addind /signup or /login.
-
-___________________________________________________________________________________________________
-
-SOURCES:
-
-Back:   
-https://www.dj4e.com/lessons   
-https://docs.djangoproject.com/en/5.1/topics/install/#database-installation     
-https://nginx.org/en/docs/  
-https://medium.com/django-unleashed/serving-static-and-media-files-using-nginx-in-django-a4a125af95d    
-https://www.w3schools.com/django/   
-https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador  
+### **Access the Website**
+To access the website, go to:https://ip:8443
 
