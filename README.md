@@ -26,16 +26,16 @@ To set up and run the project (you will need to create som .env files):
 
 1. Run the following command to build and start the application:
    ```bash
-   make
+      make
    ```
 2.  Go to the website and enjoy :)
 3.  To stop the server without deleting volumes:
    ```bash
-   make down
+      make down
    ```
 4.  To stop the server and delete all volumes:
    ```bash
-   make fclean
+      make fclean
    ```
 
 ### **Access the Website**
