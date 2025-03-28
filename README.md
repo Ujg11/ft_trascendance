@@ -25,18 +25,18 @@ The **ft_trascendance** project is a web application developed using **Django** 
 To set up and run the project (you will need to create som .env files):
 
 1. Run the following command to build and start the application:
-   ```bash
+```bash
 make
-   ```
+```
 2.  Go to the website and enjoy :)
 3.  To stop the server without deleting volumes:
-   ```bash
-   make down
-   ```
+```bash
+make down
+```
 4.  To stop the server and delete all volumes:
-   ```bash
-   make fclean
-   ```
+```bash
+make fclean
+```
 
 ### **Access the Website**
 To access the website, go to:https://ip:8443
